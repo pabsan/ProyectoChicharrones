@@ -1,8 +1,18 @@
 .menu{
-    font-size: 62px;
+    font-size: 58px;
 }
 
 .menu img{
     vertical-align: baseline;
-    text-align: center;
+    text-align: right;
+}
+
+.redes{
+    font-size: 36px;
+    vertical-align: bottom;
+    padding-left: 0px;
+}
+
+.logo{
+    padding-left: 32px;
 }
