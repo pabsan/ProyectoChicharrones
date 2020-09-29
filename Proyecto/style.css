@@ -47,6 +47,72 @@
 .logo{
     padding-left: 32px;
 }
+.menuSection .divisor{
+  background-color: black;
+  min-height: 35px;
+}
+.menuSection .menu{
+  background-color: #fdb238;
+  border: 5px dotted black;
+  min-height: 700px;
+  margin-left: -55px;
+  margin-top: 80px;
+  padding-left: 2.3%;
+  z-index: 2;
+}
+.menuSection .menu table{
+  margin: 0 20px 0 0;
+}
+.menuSection .menu th{
+  font-size: 40px;
+  text-align: center;
+  padding-left: 25px;
+  padding-top: 24px;
+}
+.menuSection .menu td{
+  font-size: 32px;
+  text-align: left;
+  padding-left: 9%;
+}
+.menuSection .menu .nota{
+  font-size: 20px;
+  text-align: left;
+}
+.menuSection .menuImg img{
+  height: 550px;
+  width: 550px;
+  margin-top: 20px;
+}
+.menuSection .menuImg{
+  z-index: 4;
+}
+.menuSection .menuImg .oval {
+  width: 200px;
+  height: 100px;
+  background: red;
+  border-radius: 100px / 50px;
+  color: white;
+  margin: 21% auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 4px dotted black;
+  transform: skew(-20deg);
+}
+.menuSection .menuImg .oval a{
+  color: white;
+  font-size: 28px;
+}
+.menuSection .menuSide .parallelogram {
+  width: 150px;
+  height: 100px;
+  transform: skew(20deg);
+  background: red;
+  color: #f2f2f2;
+  padding: 20px;
+  margin: 20px auto;
+}
+
 
 /*768px o mas*/
 @media (min-width:768px){
