@@ -11,6 +11,21 @@
     padding-left: 0px;
 }
 
+.inicio {
+  height: 550px;
+  width: 550px;
+  margin-top: 20px;
+}
+
+.inicioSide{
+  width: 150px;
+  height: 120px;
+  background: red;
+  color: #f2f2f2;
+  padding: 10px;
+  margin: 20px auto;
+}
+
 .logo{
     padding-left: 32px;
 }
