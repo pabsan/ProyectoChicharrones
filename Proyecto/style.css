@@ -2,24 +2,19 @@
     height: 28px;
 }
 .redes{
-    margin-top: 120px;
-    font-size: 46px;
-    vertical-align: bottom;
+    font-size: 28px;
+    vertical-align: middle;
     color: #24225c;
-}
-
-.row .col-1 {
-  width: 50%;
-}
-
-.row .col-2 {
-  width: 50%;
+    float: right;
+    margin-left: 20px;
+    padding-left: 70%;
+    text-align: right;
+    background-color: cadetblue;
 }
 
 .inicio-logo{
-  width: 120%;
-  height: 20%;
-  margin-left: -20px;
+  width: 100%;
+  height: 13%;
   margin-top: 20px;
   margin-right: 0;
   padding: 0;
@@ -42,13 +37,17 @@
 
 }
 
+.inicioTexto{
+  padding-right: 0;
+}
+
 .inicio {
   margin-top: 20px;
   padding: 0; 
 }
 
 .inicioSide h2 {
-  font-size: 28px;
+  font-size: 42px;
   color: #24225c;
   line-height: 0.95;
   font-family: "Lucida Console", Monaco, monospace;
@@ -58,7 +57,9 @@
 
 .inicioSide{
   transform: rotate(-9deg) skewX(-9deg);
-  margin-top: 20px;
+  margin-top: 36px;
+  margin-left: 25%;
+  margin-bottom: 36px;
 }
 
 .esca-side{
@@ -138,23 +139,38 @@
   margin: 20px auto;
 }
 
+
+
+/*  */
+@media (min-width:1269px){
+
+}
+
 /*768px o mas*/
 @media (min-width:768px){
   .presentacion {
     margin-left: 125px;
     margin-right: 125px;
-  
+    padding-right: 0;
   }
   
   .menuNav{
     margin-left: 125px;
     margin-right: 125px;
+    padding-right: 0;
   }
 }
 
+/* 1650 o más */
 @media (min-width:1650px){
   .inicioSide h2 {
     font-size: 48px;
+    padding-left: 0;
+  }
+
+  .redes{
+    font-size: 52px;
+    padding-left: 0;
   }
   
 }
