@@ -1,15 +1,23 @@
 .navbar-brand img{
     height: 28px;
 }
-.redes{
-    font-size: 28px;
+
+.menuNav{
+  margin-right: -15px;  
+}
+
+.rowDir{
+  margin-right: 0;
+}
+.dir{
+    font-size: 16px;
     vertical-align: middle;
     color: #24225c;
-    float: right;
     margin-left: 20px;
-    padding-left: 70%;
-    text-align: right;
+    text-align: center;
     background-color: cadetblue;
+    width: 100%;
+
 }
 
 .inicio-logo{
@@ -47,7 +55,7 @@
 }
 
 .inicioSide h2 {
-  font-size: 42px;
+  font-size: 28px;
   color: #24225c;
   line-height: 0.95;
   font-family: "Lucida Console", Monaco, monospace;
@@ -141,13 +149,63 @@
 
 
 
-/*  */
-@media (min-width:1269px){
-
-}
-
 /*768px o mas*/
 @media (min-width:768px){
+  .presentacion {
+    margin-left: 18px;
+    margin-right: 18px;
+    padding-right: 0;
+  }
+  
+  .menuNav{
+    margin-left: 18px;
+    margin-right: 18px;
+    padding-right: 0;
+  }
+  .inicioSide{
+    margin-top: 18px;
+    margin-bottom: 16px;
+  }
+  .inicioSide h2{
+    font-size: 14px;
+  }
+  .dir{
+    font-size: 13px;
+    margin-left: 15px;
+  }
+  .rowDir{
+    margin-right: -11px;
+  }
+}
+
+/*1024px o mas*/
+@media (min-width:1024px){
+  .presentacion {
+    margin-left: 84px;
+    margin-right: 84px;
+    padding-right: 0;
+  }
+  
+  .menuNav{
+    margin-left: 84px;
+    margin-right: 84px;
+    padding-right: 0;
+  }
+  .inicioSide h2{
+    font-size: 18px;
+  }
+  .inicioSide{
+    margin-top: 18px;
+    margin-bottom: 16px;
+  }
+  .dir{
+    font-size: 15px;
+  }
+  
+}
+
+/*1440px o mas*/
+@media (min-width:1440px){
   .presentacion {
     margin-left: 125px;
     margin-right: 125px;
@@ -159,6 +217,13 @@
     margin-right: 125px;
     padding-right: 0;
   }
+  .inicioSide{
+    margin-top: 36px;
+    margin-bottom: 22px;
+  }
+  .inicioSide h2{
+    font-size: 38px;
+  }
 }
 
 /* 1650 o más */
@@ -168,9 +233,11 @@
     padding-left: 0;
   }
 
-  .redes{
-    font-size: 52px;
-    padding-left: 0;
+  .dir{
+    font-size: 32px;
+    width: 150%;
   }
-  
+  .rowDir{
+    margin-right: -45px;
+  }
 }
