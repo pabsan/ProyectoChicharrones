@@ -147,7 +147,10 @@
   margin: 20px auto;
 }
 
-
+.orderSection .row{
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
 
 /*768px o mas*/
 @media (min-width:768px){
