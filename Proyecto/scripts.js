@@ -48,7 +48,7 @@ $(function () {
                 }
                 i += 1;
              });
-             var url = 'https://api.whatsapp.com/send?phone=50688857010&text=' + msj;
+             var url = 'https://api.whatsapp.com/send?phone=50686656919&text=' + msj;
              //console.log(url);
              openInNewTab(url);
         }else{

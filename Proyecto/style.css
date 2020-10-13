@@ -200,6 +200,10 @@
   margin-top: 15px;
 }
 
+.orderSection #titulo{
+  margin: auto auto 8px auto;
+}
+
 .close{
   color: yellow;
 }
