@@ -31,7 +31,6 @@
         <a href="index.html" class="nav-item nav-link">Inicio</a>
         <a href="#" class="nav-item nav-link">Ordenar</a>
         <a href="menu.html" class="nav-item nav-link">Menu</a>
-        <a href="#" class="nav-item nav-link">Sobre Nosotros</a>
       </div>
     </div>
   </nav>
@@ -201,7 +200,7 @@
           </table>
         </div>
         <div class="col-sm-4">
-          <a href="#" class="btn btn-dark">Realizar pedido!</a>
+          <button class="requestOrder btn btn-dark">Realizar pedido!</button>
         </div>
       </div>
     </div>
@@ -209,6 +208,33 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="scripts.js"></script>
+  <script>
+    function deleteProduct (tr){
+        $(tr).closest('tr').remove();
+        var row = $('tbody').children('tr').length
+        var tot = 0
+        var i = 1;
+        if (row > 1){
+          $('table > tbody  > tr').each(function(index, tr) {
+                var $cell = $(tr).find('td'),
+                    price = $cell.eq(2).text(),
+                    subtot = parseInt(price);
+                console.log(row);
+                console.log(i);
+                if (i < row){
+                  tot += subtot;
+                  console.log(tot);
+                  console.log(subtot);
+                  $('#precioTotal').text(parseInt(tot));      
+                }
+                i += 1;
+            })
+        } else{
+          $('#precioTotal').text("0")
+        }
+        console.log(row);
+    }
+  </script>
 </body>
 
 </html>

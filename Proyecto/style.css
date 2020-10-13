@@ -200,6 +200,10 @@
   margin-top: 15px;
 }
 
+.close{
+  color: yellow;
+}
+
 /*768px o mas*/
 @media (min-width:768px){
   .presentacion {
