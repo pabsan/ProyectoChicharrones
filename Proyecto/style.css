@@ -136,33 +136,34 @@
 .menuSection .menu{
   background-color: #fdb238;
   border: 5px dotted black;
-  min-height: 700px;
-  margin-left: -55px;
+  min-height: 415px;
+  /* margin-left: -55px; */
   margin-top: 80px;
   padding-left: 2.3%;
   z-index: 2;
 }
 .menuSection .menu table{
   margin: 0 20px 0 0;
+  margin: auto;
 }
 .menuSection .menu th{
-  font-size: 40px;
+  font-size: 22px;
   text-align: center;
-  padding-left: 25px;
+  /* padding-left: 25px; */
   padding-top: 24px;
 }
 .menuSection .menu td{
-  font-size: 32px;
+  font-size: 16px;
   text-align: left;
-  padding-left: 9%;
+  /* padding-left: 9%; */
 }
 .menuSection .menu .nota{
-  font-size: 20px;
+  font-size: 12px;
   text-align: left;
 }
 .menuSection .menuImg img{
-  height: 550px;
-  width: 550px;
+  height: 300px;
+  width: 300px;
   margin-top: 20px;
 }
 .menuSection .menuImg{
@@ -203,11 +204,37 @@
 .orderSection #titulo{
   margin: auto auto 8px auto;
 }
+.orderSection #alerta{
+  margin-top: 6%;
+}
 
 .close{
   color: yellow;
 }
 
+#alerta .close{
+  color: black;
+}
+#alerta {
+  position: fixed;
+  top: 0;
+  width: 70%;
+  z-index: 1000;
+}
+/*375px o mas*/
+@media (min-width:375px){
+  .menuSection .menuImg img{
+    height: 350px;
+    width: 350px;
+    margin-top: 20px;
+  }}
+/*425px o mas*/
+@media (min-width:425px){
+  .menuSection .menuImg img{
+    height: 400px;
+    width: 400px;
+    margin-top: 20px;
+  }}
 /*768px o mas*/
 @media (min-width:768px){
   .presentacion {
@@ -240,6 +267,42 @@
   .rowDir{
     margin-right: -11px;
   }
+  .menuSection .menu{
+    background-color: #fdb238;
+    border: 5px dotted black;
+    min-height: 530px;
+    margin-left: -55px;
+    margin-top: 80px;
+    padding-left: 2.3%;
+    z-index: 2;
+  }
+  .menuSection .menu table{
+    margin: 0 20px 0 0;
+    margin: auto;
+  }
+  .menuSection .menu th{
+    font-size: 28px;
+    text-align: center;
+    /* padding-left: 25px; */
+    padding-top: 24px;
+  }
+  .menuSection .menu td{
+    font-size: 20px;
+    text-align: left;
+    padding-left: 2%;
+  }
+  .menuSection .menu .nota{
+    font-size: 16px;
+    text-align: left;
+  }
+  .menuSection .menuImg img{
+    height: 320px;
+    width: 320px;
+    margin-top: 20px;
+  }
+  .orderSection #alerta{
+    margin-top: 2%;
+  }
 }
 
 /*1024px o mas*/
@@ -250,11 +313,11 @@
     padding-right: 0;
   }
   
-  .menuNav{
-    margin-left: 84px;
-    margin-right: 84px;
+  .menuNav {
+    margin-left: 48px;
+    margin-right: 48px;
     padding-right: 0;
-  }
+}
 
   .redes{
     margin-left: 84px;
@@ -269,6 +332,39 @@
   }
   .dir{
     font-size: 15px;
+  }
+  .menuSection .menu{
+    background-color: #fdb238;
+    border: 5px dotted black;
+    min-height: 630px;
+    margin-left: -55px;
+    margin-top: 80px;
+    padding-left: 2.3%;
+    z-index: 2;
+  }
+  .menuSection .menu table{
+    margin: 0 20px 0 0;
+    margin: auto;
+  }
+  .menuSection .menu th{
+    font-size: 35px;
+    text-align: center;
+    /* padding-left: 25px; */
+    padding-top: 24px;
+  }
+  .menuSection .menu td{
+    font-size: 25px;
+    text-align: left;
+    padding-left: 5%;
+  }
+  .menuSection .menu .nota{
+    font-size: 20px;
+    text-align: left;
+  }
+  .menuSection .menuImg img{
+    height: 450px;
+    width: 450px;
+    margin-top: 20px;
   }
   
 }
@@ -303,6 +399,38 @@
   .inicioSide h2{
     font-size: 38px;
   }
+  .menuSection .menu{
+    background-color: #fdb238;
+    border: 5px dotted black;
+    min-height: 700px;
+    margin-left: -55px;
+    margin-top: 80px;
+    padding-left: 2.3%;
+    z-index: 2;
+  }
+  .menuSection .menu table{
+    margin: 0 20px 0 0;
+  }
+  .menuSection .menu th{
+    font-size: 40px;
+    text-align: center;
+    padding-left: 25px;
+    padding-top: 24px;
+  }
+  .menuSection .menu td{
+    font-size: 32px;
+    text-align: left;
+    padding-left: 9%;
+  }
+  .menuSection .menu .nota{
+    font-size: 20px;
+    text-align: left;
+  }
+  .menuSection .menuImg img{
+    height: 550px;
+    width: 550px;
+    margin-top: 20px;
+  }
 }
 
 /* 1650 o más */
@@ -319,6 +447,38 @@
 
   .rowDir{
     margin-right: -45px;
+  }
+  .menuSection .menu{
+    background-color: #fdb238;
+    border: 5px dotted black;
+    min-height: 700px;
+    margin-left: -55px;
+    margin-top: 80px;
+    padding-left: 2.3%;
+    z-index: 2;
+  }
+  .menuSection .menu table{
+    margin: 0 20px 0 0;
+  }
+  .menuSection .menu th{
+    font-size: 40px;
+    text-align: center;
+    padding-left: 25px;
+    padding-top: 24px;
+  }
+  .menuSection .menu td{
+    font-size: 32px;
+    text-align: left;
+    padding-left: 9%;
+  }
+  .menuSection .menu .nota{
+    font-size: 20px;
+    text-align: left;
+  }
+  .menuSection .menuImg img{
+    height: 550px;
+    width: 550px;
+    margin-top: 20px;
   }
 
 }

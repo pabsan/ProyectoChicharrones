@@ -3,10 +3,21 @@ $(function () {
         var product = $(this).parent().parent().get(0).id
         if($("#"+ product +" #cantidad").val() > 0){
             addProd($("#"+ product +" .card-title").text(),$("#"+ product +" #cantidad").val(),$("#"+ product +" #precio").text())
+            addAlert("Producto agregado con exito.","alert-success")
         }else{
-            alert("Debe elegir la cantidad.")
+            addAlert("Debe elegir la cantidad.","alert-warning")
         }
     })
+
+    function addAlert(msg, typeAlert){
+        $('#alerta').remove()
+        $('.orderSection .container').prepend('<div id="alerta" class="alert alert-success" role="alert">'+msg+'<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>')
+        $("#alerta").removeClass()
+        $("#alerta").addClass("alert")
+        $("#alerta").addClass(typeAlert)
+        $("#alerta").show("fade")
+        $("#alerta").delay("5000").hide("fade")
+    }
 
     function addProd(product, cantidad, precio){
         var row = $('tbody').children('tr').length
